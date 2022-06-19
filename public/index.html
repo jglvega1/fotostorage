@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lechuga Fotografica</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="background"></div>
+	<header>
+		<div>
+			<h1>Tus fotos en cualquier lugar</h1>
+			<h2>Gustavo Lechuga | Fotografo</h2>
+			<div class="btn-Group-H">
+				<button><span>
+					<span>Ver portafolio</span>
+				</span></button>
+				<a href="#pedido"><span>
+					<span>Ver mi pedido</span>
+				</span></a>
+			</div>
+		</div>
+	</header>
+	<main id="main">
+		<section id="pedido">
+			<div>
+				<h3>Ve tus fotos</h3>
+				<form id="frm-Pedido">
+					<label>
+						Nombres:
+						<input type="text" placeholder="Ej. novia y novio" id="frm-Pedido-Nombres">
+					</label>
+					<label>
+						Fecha:
+						<input type="date" id="frm-Pedido-Fecha">
+					</label>
+					<input type="submit" value="Buscar">
+				</form>
+				<div id="root-Pedido"></div>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
+	<script src="index.js" type="module"></script>
+</body>
+</html>

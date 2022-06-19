@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	background: rgba(33, 33, 33, 0.6);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	font-family: sans-serif;
+}
+
+#background{
+	background: #000;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: -10;
+}
+.backMosaic{
+	display: inline-block;
+	margin: 10pt;
+	width: 100px;
+	height: 133px;
+	z-index: -10;
+	opacity: 0.2;
+}
+
+img{
+	max-width: 300px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+button, input[type="submit"]{
+	display: block;
+	background: rgba(3, 3, 3, 0.2);
+	color: #fff;
+	border: solid #fff 1pt;
+	padding: 5pt 15pt;
+	backdrop-filter: blur(8px);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+:is(button, input[type="submit"]):hover{
+	background: rgba(3, 3, 3, 0.6);
+}
+
+.btn-Group-H{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 5px;
+}
+.btn-Group-h button{
+	float: left;
+}
+
+#root-Pedido{
+	height: fit-content;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+section{
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(33, 33, 33, .2);
+	position: relative;
+	z-index: 1;
+	backdrop-filter: blur(8px);
+}
+
+.img-container{
+	display: inline-block;
+}
+
+.img-warp{
+	display: flex;
+	flex-direction: column;
+}
+
+a{
+	color: #EEE;
+}
+a:hover{
+	color: #FFF;
+}
+input{
+	border: none;
+	padding: 2.5pt 5pt;
+}
+input[type="submit"]{
+	display: inline-block;
+}
